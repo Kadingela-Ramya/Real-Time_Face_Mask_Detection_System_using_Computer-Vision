@@ -1,13 +1,13 @@
-# 🧠 Real-Time Face Mesh & Mask Analysis System
+# Real-Time Face Mesh & Mask Analysis System
 
-## 📌 Overview
+## Overview
 This project is a real-time face analysis system built using computer vision techniques. It detects facial landmarks and analyzes user behavior such as eye blinking, mouth movement, and head direction using live webcam input in Google Colab.
 
 The system uses **MediaPipe FaceMesh** to extract 468 facial landmarks and applies simple yet effective logic to interpret facial actions.
 
 ---
 
-## 🚀 Features
+## Features
 - 📷 Capture webcam frames directly in Google Colab  
 - 🔍 Detect 468 facial landmarks using FaceMesh  
 - 👁️ Blink detection using Eye Aspect Ratio (EAR)  
@@ -18,7 +18,7 @@ The system uses **MediaPipe FaceMesh** to extract 468 facial landmarks and appli
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - Python  
 - MediaPipe  
 - OpenCV  
@@ -28,7 +28,7 @@ The system uses **MediaPipe FaceMesh** to extract 468 facial landmarks and appli
 
 ---
 
-## 📊 How It Works
+## How It Works
 
 ### 🔹 Face Detection & Landmark Extraction
 - Uses MediaPipe FaceMesh  
@@ -56,7 +56,7 @@ The system uses **MediaPipe FaceMesh** to extract 468 facial landmarks and appli
 
 ---
 
-## 🖼️ Output
+## Output
 The system displays:
 - Left → Live camera frame  
 - Right → Face mesh overlay  
@@ -64,7 +64,7 @@ The system displays:
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Open the notebook in Google Colab  
 2. Install dependencies (first cell)  
@@ -73,6 +73,6 @@ The system displays:
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 ```bash
 pip install mediapipe==0.10.9 opencv-python-headless Pillow
